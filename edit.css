@@ -1,0 +1,163 @@
+body{
+    background-color:darkcyan
+}
+
+
+/*Inicio de Cabezera 1 */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 2%;
+    margin: 0;
+
+
+
+}
+.logo{
+    width: 50px;
+    height: 5opx;
+    clear: left;
+
+    }
+
+.nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+    color: #fff; 
+
+}
+
+.nav li{
+display: inline; 
+margin-right: 20px; 
+justify-content: space-between;
+border: 5px groove black;
+margin-left: 50px;
+}
+
+.nav a{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+}
+
+.nav a:hover {
+text-decoration: underline;
+}
+
+.titulo{
+display: flex;
+justify-content: center;
+
+}
+
+.presentacion .titulo{
+font-size: 70px;
+display: flex;
+justify-content: center;
+
+
+}
+.presentacion .subtitulo{
+display:flex ;    
+justify-content: center;
+}
+.imgpresentacion{
+width: 250px;
+height: 350px;
+margin: 5%;
+margin-top: 0%;
+margin-bottom: 0%;
+padding: 1%;
+border: 20px, solid, gray;
+border-radius: 40%;
+}
+
+.CV{
+border: 30px, solid, white;  
+background-color: white;
+border-radius: 50px;
+text-decoration: none;
+color: black;
+font-size: 20px;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.CV:hover{
+  border: 30px, solid, #333;
+  background-color: #333;
+  color: aqua;
+
+}
+/*FIN DE CABEZERA 1 */
+
+
+.parrafo{
+font-size: 20px;    
+color: white;
+padding:80px;
+padding-top: 7px;
+padding-bottom: 5px  ;
+background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)) ;
+border: 5px groove black;
+}
+
+
+
+img.izquierda {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 1%;
+  }
+  
+  img.derecha {
+    float: right;
+    width: 100px;
+    height: 100px;
+    padding: 1%;
+  }
+
+
+  /*Fin de la seccion de la presentacion*/
+
+/*Pie de pagina*/
+footer{
+  padding-top: 5% ;   
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+ h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h2{
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+p{
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+
+}
+
+
+
+
+  

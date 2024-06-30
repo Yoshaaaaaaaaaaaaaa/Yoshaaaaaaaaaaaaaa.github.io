@@ -1,0 +1,115 @@
+body{
+    background-color:darkcyan
+}
+
+
+/*Inicio de Cabezera 1 */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 2%;
+    margin: 0;
+
+
+
+}
+.logo{
+    width: 50px;
+    height: 5opx;
+    clear: left;
+
+    }
+
+.nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+    color: #fff; 
+
+}
+
+.nav li{
+display: inline; 
+margin-right: 20px; 
+justify-content: space-between;
+border: 5px groove black;
+margin-left: 50px;
+}
+
+.nav a{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+}
+
+.nav a:hover {
+text-decoration: underline;
+}
+
+
+i{
+    font-size: 20px;
+
+}
+
+.columnas ul{
+    font-size: 20px;
+color: white;
+background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)) ;
+border: 5px groove black;
+justify-content: center;
+text-align: center;
+}
+.columnas li{
+    text-align: justify;
+}
+
+i{
+    font-size: 20px;    
+    color: white;
+    padding:80px;
+    
+}
+p{
+    font-size: 20px;    
+    color: white;
+    padding:80px;
+    padding-top: 7px;
+    padding-bottom: 5px  ;
+    background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)) ;
+    border: 5px groove black;
+    
+
+}
+.center{
+    text-align: center;
+}
+img.izquierda {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 3%;
+    border-radius: 40%;
+  }
+  
+  img.derecha {
+    float: right;
+    width: 200px;
+    height: 200px;
+    padding: 3%;
+    border-radius: 40%;
+  }
+
+
+
+
+footer{
+    padding-top: 5% ;   
+  }
+  .footer{
+   
+    display: flex;
+    justify-content: space-evenly;
+  }
+  

@@ -1,0 +1,137 @@
+body{
+    background-color:darkcyan
+}
+
+
+/*Inicio de Cabezera 1 */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 2%;
+    margin: 0;
+
+
+
+}
+.logo{
+    width: 50px;
+    height: 5opx;
+    clear: left;
+
+    }
+
+.nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+    color: #fff; 
+
+}
+
+.nav li{
+display: inline; 
+margin-right: 20px; 
+justify-content: space-between;
+border: 5px groove black;
+margin-left: 50px;
+}
+
+.nav a{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+}
+
+.nav a:hover {
+text-decoration: underline;
+color: darkcyan;
+}
+
+.buttons {
+    display: inline; 
+    margin-right: 20px; 
+    justify-content: center;
+    padding-left:10px;
+    padding-right: 10px;
+    border: 5px groove black;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #333;
+    color:white;
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buttons:hover{
+   color: darkcyan; 
+}
+
+.cont img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+footer{
+    padding-top: 5% ;   
+  }
+  .footer{
+   
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+  h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+
+  h2{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;    
+    text-align: center;
+
+color: white;
+padding:10px;
+padding-top: 7px;
+padding-bottom: 5px  ;
+background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)) ;
+border: 5px groove black;
+}
+  
+
+  
+  
+#project-info #Link{
+  text-decoration: none;
+color: #fff;
+font-size: 25px;
+background-color: #333;
+display: flex;
+justify-content: center;
+
+
+}
+
+#project-info #Link:hover{
+  text-decoration: underline;
+  color: darkcyan;
+  font-size: 25px;
+  background-color: #333;
+}
+
+
+
